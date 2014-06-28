@@ -7,7 +7,7 @@ class S3Storage implements StorageInterface {
         return false;
     }
 
-    public function getURL($path)
+    public function url($path)
     {
         return null;
     }
